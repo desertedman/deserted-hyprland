@@ -16,10 +16,10 @@
         // "idle_inhibitor",
         "tray",
         "pulseaudio",
-        "bluetooth",
+        // "bluetooth",
         "network",
         "power-profiles-daemon",
-        "battery",
+        // "battery",
         // "battery#bat2",
         "clock",
         "custom/power"
@@ -38,12 +38,17 @@
         "player": "spotify",
         "format": "{status_icon} <b>{dynamic}</b>",
         "format-paused": "{status_icon} <i>{dynamic}</i>",
+        "format-stopped": "None",
         "status-icons": {
             "playing": "⏸",
             "paused": "▶"
         },
         "dynamic-len": 30,
+        "interval": 1
     },
+    // "bluetooth:" {
+        
+    // },
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
