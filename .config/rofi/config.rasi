@@ -9,6 +9,7 @@ entry {
 }
 
 window {
+    location: center;
     x-offset: 0px;
     y-offset: 0px;
     width: 30em;
