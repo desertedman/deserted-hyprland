@@ -2,6 +2,7 @@
 
 #waybar {
     background-color: @base;
+    border: 0.15rem solid @blue;
 }
 
 /* Hide module when no window is open */
@@ -63,8 +64,16 @@ box.module {
     /* Special padding rules for first/last workspace */
     padding-left: 0.3rem;
     padding-right: 0.3rem;
+}
 
-    /* border-color: @sky; */
+/* Clear hover defaults */
+#workspaces button:hover {
+    box-shadow: none; /* Remove predefined box-shadow */
+    text-shadow: none; /* Remove predefined text-shadow */
+    background: none; /* Remove predefined background color (white) */
+
+    /* Disable predefined animations */
+    transition: all 0.1s linear 0s;
 }
 
 /* General workspaces; i.e. not empty. To set empty, use the one below! */
@@ -77,6 +86,8 @@ box.module {
     margin-right: 0.15rem;
 
     border: 0.12rem solid @yellow;
+
+    transition: all 0.1s linear 0s;
 }
 
 #workspaces button.empty {
@@ -105,7 +116,15 @@ box.module {
     margin-right: 0.5rem;
 
     border: 0.17rem solid @green;
+}
 
+/* Hovering over a workspace */
+#workspaces button:hover {
+    background: @overlay0;
+
+    /* Have active workspace expand slightly */
+    /* padding-left: 1.15rem;
+    padding-right: 1.15rem; */
 }
 
 #mpris {
