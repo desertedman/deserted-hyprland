@@ -73,6 +73,7 @@ box.module {
     background: none; /* Remove predefined background color (white) */
 
     /* Disable predefined animations */
+    /* transition: none; */
     transition: all 0.1s linear 0s;
 }
 
