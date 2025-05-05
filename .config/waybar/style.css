@@ -101,12 +101,13 @@ box.module {
 
 #workspaces button.urgent {
     color: @red;
+    border-color: @red;
 }
 
 #workspaces button.active {
     /* Active workspace has different colors to stand out*/
     background-color: @surface1;
-    color: @green;
+    color: @sapphire;
 
     /* Have active workspace expand slightly */
     padding-left: 1.15rem;
@@ -116,7 +117,7 @@ box.module {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 
-    border: 0.17rem solid @green;
+    border: 0.17rem solid @sapphire;
 }
 
 /* Hovering over a workspace */
