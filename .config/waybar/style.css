@@ -1,0 +1,119 @@
+@import "mocha.css";
+
+#waybar {
+    background-color: @base;
+}
+
+/* Hide module when no window is open */
+window#waybar.empty #window{
+    /* Take on whatever color the bar is */
+    background-color: transparent;
+    border: 0;
+}
+
+/* Limit max length of window title */
+#window {
+    margin-right: 10rem;
+}
+
+/* General module rules */
+label.module,
+box.module {
+    border-radius: 0.35rem;
+    border: 0.2rem solid @lavender;
+
+    background-color: @mantle;
+
+    margin: 0.35rem 0.25rem;
+    padding: 0.1rem 0.8rem;
+
+    color: @text;
+    font-family: "JetBrains Mono"
+}
+
+/* Override right modules */
+.modules-right label.module,
+.modules-right box.module {
+    /* Override border rule */
+    border: none;
+
+    /* Modules with a shared edge have 0.14rem */
+    /* First/last modules might need additional padding */
+    margin: 0;
+    padding: 0 0.7rem;
+
+    background-color: transparent;
+}
+
+/* Wrap all right modules in collective border */
+.modules-right {
+    border-radius: 0.35rem;
+    border: 0.2rem solid @lavender;
+
+    background-color: @mantle;
+
+    /* Copy same margins from general module rule */
+    margin: 0.35rem 0.25rem;
+
+    /* Additional padding for first/last module */
+    padding: 0 0.4rem;
+}
+
+#workspaces {
+    /* Special padding rules for first/last workspace */
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+
+    /* border-color: @sky; */
+}
+
+/* General workspaces; i.e. not empty. To set empty, use the one below! */
+#workspaces button {
+    background-color: @surface0;
+    color: @yellow;
+
+    /* Small spacing inbetween each button */
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+
+    border: 0.12rem solid @yellow;
+}
+
+#workspaces button.empty {
+    /* Grayed out button for empty workspaces */
+    background-color: @crust;
+    color: rgb(46, 43, 43);
+
+    border: 0;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+#workspaces button.active {
+    /* Active workspace has different colors to stand out*/
+    background-color: @surface1;
+    color: @green;
+
+    /* Have active workspace expand slightly */
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+
+    /* Increased spacing between active button */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    border: 0.17rem solid @green;
+
+}
+
+#mpris {
+    border-color: @teal;
+    color: @green;
+}
+
+#custom-power {
+    /* background-color: mauv; */
+    color: @peach;
+}
