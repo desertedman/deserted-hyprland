@@ -6,6 +6,8 @@ alacritty
 
 Rofi
 
+Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included) 
+
 Waybar
 
 swaync
