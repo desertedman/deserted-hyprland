@@ -4,12 +4,10 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        // "clock",
         "mpris",
         "hyprland/window"
     ],
     "modules-center": [
-        // "mpris",
         "hyprland/workspaces"
     ],
     "modules-right": [
@@ -43,7 +41,10 @@
             "paused": "▶"
         },
         "dynamic-len": 30,
-        "interval": 1
+        "interval": 1,
+
+        "on-scroll-up": "playerctl --player=spotify volume 0.05+",
+        "on-scroll-down": "playerctl --player=spotify volume 0.05-"
     },
     // "bluetooth:" {
         
