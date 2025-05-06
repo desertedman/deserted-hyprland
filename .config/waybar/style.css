@@ -32,6 +32,21 @@ box.module {
     font-family: "JetBrainsMono NF"
 }
 
+tooltip {
+    color: @text;
+    background-color: @surface0;
+    text-shadow: none;
+
+    border: 0;
+
+    font-family: "JetBrainsMono NF"
+}
+  
+/* tooltip * {
+    color: @text;
+    background-color: @surface0;
+} */
+
 /* Override right modules */
 .modules-right label.module,
 .modules-right box.module {
@@ -127,6 +142,11 @@ box.module {
     /* Have active workspace expand slightly */
     /* padding-left: 1.15rem;
     padding-right: 1.15rem; */
+}
+
+#tray menu {
+    background-color: @surface0;
+    color: @text;
 }
 
 #mpris {
