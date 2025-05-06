@@ -19,7 +19,6 @@
         "bluetooth",
         "network",
         // "battery",
-        "upower",
         "power-profiles-daemon",
         "clock",
         "custom/power"
