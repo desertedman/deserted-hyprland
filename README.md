@@ -12,12 +12,18 @@ Waybar
 
 swaync
 
-JetBrainsMono font (https://www.jetbrains.com/lp/mono/) (included)
+JetBrains Mono Nerd font (https://www.nerdfonts.com/font-downloads) (included)
 
 Catppuccin Waybar color scheme (https://github.com/catppuccin/waybar) (included)
 
 hyprpolkitagent
 
+hypridle
+
 pavucontrol
 
 https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
+
+blueman
+
+nm-applet
