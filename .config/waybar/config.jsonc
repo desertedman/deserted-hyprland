@@ -18,8 +18,8 @@
         "pulseaudio",
         "bluetooth",
         "network",
-        "power-profiles-daemon",
         "battery",
+        "power-profiles-daemon",
         // "battery#bat2",
         "clock",
         "custom/power"
@@ -44,7 +44,11 @@
             "paused": "▶"
         },
         "dynamic-len": 30,
-        "interval": 1
+        "interval": 1,
+
+        // "on-click": "playerctl play-pause",
+        // "on-double-click": "next",
+        // "on-triple-click": "playerctl prev"
     },
     // "bluetooth:" {
         
@@ -111,13 +115,13 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
-        "format-full": "{icon} {capacity}%",
-        "format-charging": "{icon} {capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
+        "format": "<b>{icon} {capacity}%</b>",
+        "format-full": "<b>{icon} {capacity}%</b>",
+        "format-charging": "<b> {capacity}%</b>",
+        "format-plugged": "<b> {capacity}%</b>",
+        // "format-alt": "<b>{icon} {time}</b>",
+
+        "format-good": "", // An empty format will hide the module
         "format-icons": [
             "",
             "",
@@ -125,9 +129,6 @@
             "",
             ""
         ]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
     },
     "power-profiles-daemon": {
         "format": "{icon}",
@@ -150,12 +151,12 @@
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        "format": "{icon} <b>{volume}%</b>",
-        "format-bluetooth": "{icon} {volume}% ",
-        "format-bluetooth-muted": " {volume}% ",
-        "format-muted": " {volume}%",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format": "<b>{icon}  {volume}%</b>",
+        // "format-bluetooth": "{icon} {volume}% ",
+        // "format-bluetooth-muted": " {volume}% ",
+        "format-muted": "<b></b> {volume}%",
+        // "format-source": "{volume}% ",
+        // "format-source-muted": "",
 
         // Audio device
         "format-icons": {
@@ -180,7 +181,8 @@
         "on-click": "pavucontrol"
     },
     "bluetooth": {
-        "format-on": ""
+        "format-on": "",
+        "format-disabled": ""
     },
     "custom/media": {
         "format": "{icon} {text}",
