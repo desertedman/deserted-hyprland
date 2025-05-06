@@ -29,7 +29,10 @@
         // "justify": "center",
         "persistent-workspaces": {
             "*": 5 // 5 workspaces by default
-        }
+        },
+
+        "on-scroll-up": "hyprctl dispatch workspace r-1",
+        "on-scroll-down": "hyprctl dispatch workspace r+1"
     },
     "mpris": {
         "player": "spotify",
