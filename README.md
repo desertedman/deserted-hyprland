@@ -26,4 +26,4 @@ https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
 
 blueman
 
-nm-applet
+nmtui
