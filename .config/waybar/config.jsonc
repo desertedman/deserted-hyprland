@@ -44,11 +44,7 @@
             "paused": "▶"
         },
         "dynamic-len": 30,
-        "interval": 1,
-
-        // "on-click": "playerctl play-pause",
-        // "on-double-click": "next",
-        // "on-triple-click": "playerctl prev"
+        "interval": 1
     },
     // "bluetooth:" {
         
