@@ -16,10 +16,10 @@
         // "idle_inhibitor",
         "tray",
         "pulseaudio",
-        // "bluetooth",
+        "bluetooth",
         "network",
         "power-profiles-daemon",
-        // "battery",
+        "battery",
         // "battery#bat2",
         "clock",
         "custom/power"
@@ -58,7 +58,7 @@
     },
     "tray": {
         // "icon-size": 21,
-        "show-passive-items": true,
+        // "show-passive-items": true,
         "spacing": 10
         // "icons": {
         //   "blueman": "bluetooth",
@@ -150,7 +150,7 @@
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        "format": "{icon} {volume}%",
+        "format": "{icon} <b>{volume}%</b>",
         "format-bluetooth": "{icon} {volume}% ",
         "format-bluetooth-muted": " {volume}% ",
         "format-muted": " {volume}%",
@@ -202,6 +202,7 @@
         "menu-actions": {
             "shutdown": "shutdown",
             "reboot": "reboot",
+            "logout": "hyprctl dispatch exit 1",
             "suspend": "systemctl suspend",
             "hibernate": "systemctl hibernate"
         }

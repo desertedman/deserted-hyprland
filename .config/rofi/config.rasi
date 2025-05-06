@@ -1,7 +1,7 @@
 @theme "simple-tokyonight"
 
 * {
-    font: "JetBrains Mono 13";
+    font: "JetBrainsMono NF 13";
 }
 
 entry {

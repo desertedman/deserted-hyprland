@@ -29,7 +29,7 @@ box.module {
     padding: 0.1rem 0.8rem;
 
     color: @text;
-    font-family: "JetBrains Mono"
+    font-family: "JetBrainsMono NF"
 }
 
 /* Override right modules */
