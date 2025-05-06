@@ -18,9 +18,9 @@
         "pulseaudio",
         "bluetooth",
         "network",
-        "battery",
+        // "battery",
+        "upower",
         "power-profiles-daemon",
-        // "battery#bat2",
         "clock",
         "custom/power"
     ],
@@ -58,7 +58,7 @@
     },
     "tray": {
         // "icon-size": 21,
-        // "show-passive-items": true,
+        "show-passive-items": true,
         "spacing": 10
         // "icons": {
         //   "blueman": "bluetooth",
@@ -69,7 +69,7 @@
         "timezone": "America/Los_Angeles",
         "format": "<b>{:%I:%M %p}</b>",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%a, %b %d %Y}"
+        "format-alt": "<b>{:%a, %b %d %Y}</b>"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -124,7 +124,9 @@
             "",
             "",
             ""
-        ]
+        ],
+
+        "interval": 2 // Update every 2 sec
     },
     "power-profiles-daemon": {
         "format": "{icon}",
@@ -140,11 +142,14 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "", // Wifi unicode symbol
-        "format-ethernet": "", // Ethernet unicode symbol
+        "format-ethernet": "<b></b>", // Ethernet unicode symbol
+        "tooltip": false,
         "tooltip-format": "{signalStrength}%",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "⚠"
+        "format-linked": "{ifname} (No IP) <b></b>",
+        "format-disconnected": "⚠",
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
+
+        "on-click": "alacritty -e nmtui"
     },
     "pulseaudio": {
         "format": "<b>{icon}  {volume}%</b>",
@@ -178,7 +183,8 @@
     },
     "bluetooth": {
         "format-on": "",
-        "format-disabled": ""
+        "format-disabled": "", // Hide module if bluetooth is disabled
+        "format-no-controller": "" // Hide module if no controller
     },
     "custom/media": {
         "format": "{icon} {text}",

@@ -134,7 +134,15 @@ box.module {
     color: @green;
 }
 
+#bluetooth {
+    color: @blue;
+}
+
+#clock {
+    color: @peach;
+}
+
 #custom-power {
     /* background-color: mauv; */
-    color: @peach;
+    color: @red;
 }
