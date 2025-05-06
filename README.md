@@ -20,6 +20,8 @@ hyprpolkitagent
 
 hypridle
 
+hyprpaper
+
 pavucontrol
 
 https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
