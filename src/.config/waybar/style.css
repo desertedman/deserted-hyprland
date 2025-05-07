@@ -42,10 +42,9 @@ tooltip {
     font-family: "JetBrainsMono NF"
 }
   
-/* tooltip * {
-    color: @text;
-    background-color: @surface0;
-} */
+#tray menu {
+    border: 0.2rem solid @red;   
+}
 
 /* Override right modules */
 .modules-right label.module,
