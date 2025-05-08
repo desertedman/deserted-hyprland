@@ -16,9 +16,10 @@
         "pulseaudio",
         "bluetooth",
         "network",
-        // "battery",
+        "battery",
         "power-profiles-daemon",
         "clock",
+        "custom/notification",
         "custom/power"
     ],
     // Modules configuration
@@ -155,7 +156,7 @@
         "on-click": "alacritty -e nmtui"
     },
     "pulseaudio": {
-        "format": "<b>{icon}  {volume}%</b>",
+        "format": "<b>{icon} {volume}%</b>",
         // "format-bluetooth": "{icon} {volume}% ",
         // "format-bluetooth-muted": " {volume}% ",
         "format-muted": "<b></b> {volume}%",
@@ -188,6 +189,26 @@
         "format-on": "",
         "format-disabled": "", // Hide module if bluetooth is disabled
         "format-no-controller": "" // Hide module if no controller
+    },
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+          "notification": "<span foreground='red'><sup></sup></span>",
+          "none": "",
+          "dnd-notification": "<span foreground='red'><sup></sup></span>",
+          "dnd-none": "",
+          "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+          "inhibited-none": "",
+          "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+          "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
     },
     "custom/media": {
         "format": "{icon} {text}",

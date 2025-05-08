@@ -101,7 +101,7 @@ tooltip {
     margin-right: 0.15rem;
 
     border: 0.12rem solid @yellow;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
 
     transition: all 0.1s linear 0s;
 }
