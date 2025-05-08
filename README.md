@@ -22,6 +22,8 @@ hypridle
 
 hyprpaper
 
+hyprshot
+
 pavucontrol
 
 https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
