@@ -100,6 +100,9 @@ tooltip {
     margin-left: 0.15rem;
     margin-right: 0.15rem;
 
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+
     border: 0.12rem solid @yellow;
     /* border-radius: 0.3rem; */
 
@@ -125,8 +128,8 @@ tooltip {
     color: @sapphire;
 
     /* Have active workspace expand slightly */
-    padding-left: 1.15rem;
-    padding-right: 1.15rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
 
     /* Increased spacing between active button */
     margin-left: 0.5rem;
