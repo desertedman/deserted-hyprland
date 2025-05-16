@@ -9,3 +9,7 @@ export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 // Dark theme for GTK apps
 // export GTK_THEME=Adwaita:dark
+
+// Cursor
+export XCURSOR_SIZE=24
+export HYPRCURSOR_SIZE=24
