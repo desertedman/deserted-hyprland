@@ -2,7 +2,9 @@ My personal Hyprland configuration for Fedora 42. Only tested on Workstation
 
 Dependencies:
 
-alacritty
+kitty
+
+yazi
 
 Rofi
 
