@@ -1,22 +1,8 @@
-My personal Hyprland configuration for Fedora 42. Only tested on Workstation
+My personal Hyprland configuration for Fedora 42. Tested on Workstation/KDE
 
 Dependencies:
 
-kitty
-
-yazi
-
-Rofi
-
-Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included) 
-
-Waybar
-
-swaync
-
-JetBrains Mono Nerd font (https://www.nerdfonts.com/font-downloads) (included)
-
-Catppuccin Waybar color scheme (https://github.com/catppuccin/waybar) (included)
+hyprland (from https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
 
 hyprpolkitagent
 
@@ -26,9 +12,23 @@ hyprpaper
 
 hyprshot
 
-pavucontrol
+kitty (with included Catppuccin color scheme)
 
-https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
+yazi (from https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
+
+Rofi-wayland (not regular rofi!)
+
+Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included) 
+
+Waybar
+
+Catppuccin Waybar color scheme (https://github.com/catppuccin/waybar) (included)
+
+swaync
+
+JetBrains Mono Nerd font (https://www.nerdfonts.com/font-downloads) (included)
+
+pavucontrol
 
 blueman
 
