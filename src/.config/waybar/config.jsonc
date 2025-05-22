@@ -231,6 +231,7 @@
             "shutdown": "shutdown",
             "reboot": "reboot",
             "logout": "uwsm stop",
+            // "logout": "loginctl terminate-user \"\"",
             "suspend": "systemctl suspend",
             "hibernate": "systemctl hibernate"
         }
