@@ -18,7 +18,7 @@ yazi (from https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
 
 Rofi-wayland (not regular rofi!)
 
-Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included) 
+Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included and modified)
 
 Waybar
 
@@ -33,3 +33,7 @@ pavucontrol
 blueman
 
 nmtui
+
+Starship (https://copr.fedorainfracloud.org/coprs/atim/starship)
+
+typecraft's Starship config (included from https://github.com/typecraft-dev/dotfiles)
