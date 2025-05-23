@@ -1,8 +1,4 @@
 [manager]
-ratio = [2, 4, 2]
+# ratio = [2, 4, 2]
 show_hidden = true
 
-# [opener]
-# edit = [
-#   { run = '${EDITOR:-vi} "$@"', desc = "LunarVim", block = true, for = "unix" }
-# ]
