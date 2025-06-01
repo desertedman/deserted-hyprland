@@ -5,9 +5,10 @@ My personal Hyprland configuration for Fedora 42. Tested on Workstation/KDE
 ## Instructions
 
 Enable the following repos:
-[Hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
-[Yazi](https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
-[Starship](https://copr.fedorainfracloud.org/coprs/atim/starship)
+
+- [Hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
+- [Yazi](https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
+- [Starship](https://copr.fedorainfracloud.org/coprs/atim/starship)
 
 ```bash
 sudo dnf copr enable solopasha/hyprland varlad/yazi atim/starship
