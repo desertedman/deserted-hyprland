@@ -230,7 +230,8 @@
         "menu-actions": {
             "shutdown": "shutdown",
             "reboot": "reboot",
-            "logout": "uwsm stop",
+            // "logout": "uwsm stop",
+            "logout": "hyprctl dispatch exit",
             // "logout": "loginctl terminate-user \"\"",
             "suspend": "systemctl suspend",
             "hibernate": "systemctl hibernate"
