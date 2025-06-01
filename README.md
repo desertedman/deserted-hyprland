@@ -4,6 +4,8 @@ Dependencies:
 
 hyprland (from https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
 
+hyprsunset
+
 hyprpolkitagent
 
 hypridle
