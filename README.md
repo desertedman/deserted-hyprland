@@ -2,40 +2,44 @@ My personal Hyprland configuration for Fedora 42. Tested on Workstation/KDE
 
 Dependencies:
 
-hyprland (from https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
+<ul>
+  
+  <li>hyprland (from https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)</li>
 
-hyprsunset
+  <li>hyprsunset</li>
 
-hyprpolkitagent
+  <li>hyprpolkitagent</li>
 
-hypridle
+  <li>hypridle</li>
 
-hyprpaper
+  <li>hyprpaper</li>
 
-hyprshot
+  <li>hyprshot</li>
 
-kitty (with included Catppuccin color scheme)
+  <li>kitty (with included Catppuccin color scheme)</li>
 
-yazi (from https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
+  <li>yazi (from https://copr.fedorainfracloud.org/coprs/varlad/yazi/)</li>
 
-Rofi-wayland (not regular rofi!)
+  <li>Rofi-wayland (not regular rofi!)</li>
 
-Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included and modified)
+  <li>Rofi Simple Tokyo-Night (https://github.com/newmanls/rofi-themes-collection) (included and modified)</li>
 
-Waybar
+  <li>Waybar</li>
 
-Catppuccin Waybar color scheme (https://github.com/catppuccin/waybar) (included)
+  <li>Catppuccin Waybar color scheme (https://github.com/catppuccin/waybar) (included)</li>
 
-swaync
+  <li>swaync</li>
 
-JetBrains Mono Nerd font (https://www.nerdfonts.com/font-downloads) (included)
+  <li>JetBrains Mono Nerd font (https://www.nerdfonts.com/font-downloads) (included)</li>
 
-pavucontrol
+  <li>pavucontrol</li>
 
-blueman
+  <li>blueman</li>
 
-nmtui
+  <li>nmtui</li>
 
-Starship (https://copr.fedorainfracloud.org/coprs/atim/starship)
+  <li>Starship (https://copr.fedorainfracloud.org/coprs/atim/starship)</li>
 
-typecraft's Starship config (included from https://github.com/typecraft-dev/dotfiles)
+  <li>typecraft's Starship config (included from https://github.com/typecraft-dev/dotfiles)</li>
+
+</ul>
