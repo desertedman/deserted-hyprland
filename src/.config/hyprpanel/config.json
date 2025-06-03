@@ -1,0 +1,10 @@
+{
+  "theme.font.name": "JetBrainsMonoNL Nerd Font Mono",
+  "theme.font.label": "JetBrainsMonoNL Nerd Font Mono",
+  "bar.workspaces.show_numbered": true,
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Spotify",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "google-chrome",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Google Chrome",
+  "theme.bar.outer_spacing": "0em"
+}
