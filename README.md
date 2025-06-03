@@ -11,7 +11,9 @@ Enable the following repos:
 - [Starship](https://copr.fedorainfracloud.org/coprs/atim/starship)
 
 ```bash
-sudo dnf copr enable solopasha/hyprland varlad/yazi atim/starship
+sudo dnf copr enable solopasha/hyprland
+sudo dnf copr enable varlad/yazi
+sudo dnf copr enable atim/starship
 ```
 
 ## Dependencies
