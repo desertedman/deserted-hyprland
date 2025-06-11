@@ -24,13 +24,13 @@ sudo dnf copr enable atim/starship
 - hypridle
 - hyprpaper
 - hyprshot
+- Waybar/Hyprpanel
+- [Catppuccin Waybar color scheme](https://github.com/catppuccin/waybar) (included)
+- Rofi-wayland (not regular rofi!)
 - kitty (with included Catppuccin color scheme)
 - yazi
-- Rofi-wayland (not regular rofi!)
 - [Rofi Simple Tokyo-Night](https://github.com/newmanls/rofi-themes-collection)
 (included and modified)
-- Waybar
-- [Catppuccin Waybar color scheme](https://github.com/catppuccin/waybar) (included)
 - swaync
 - [JetBrains Mono Nerd font](https://www.nerdfonts.com/font-downloads) (included)
 - pavucontrol
