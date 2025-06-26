@@ -1,15 +1,14 @@
 return {
   {
     "folke/snacks.nvim",
-    -- focus = "list",
-
     opts = {
       picker = {
+        hidden = true,
+        ignored = true,
+
         sources = {
           explorer = {
             layout = {
-              -- preview = true,
-
               layout = {
                 position = "right",
                 width = 30,
