@@ -9,3 +9,7 @@ vim.g.autoformat = false
 -- Enable wrapping
 local opt = vim.opt
 opt.wrap = true
+
+-- Disable auto comments on new lines
+vim.opt.formatoptions:remove("cro")
+

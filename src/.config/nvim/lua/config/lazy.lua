@@ -58,3 +58,11 @@ require("mason").setup({
         "github:Crashdummyy/mason-registry",
     },
 })
+
+-- require("conform").setup({
+--   formatters_by_ft = {
+--     -- Add this entry for Markdown
+--     markdown = { "prettier" }, -- or "markdownlint", or "mdformat"
+--   },
+-- })
+
