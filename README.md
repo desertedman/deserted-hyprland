@@ -9,11 +9,13 @@ Enable the following repos:
 - [Hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland)
 - [Yazi](https://copr.fedorainfracloud.org/coprs/varlad/yazi/)
 - [Starship](https://copr.fedorainfracloud.org/coprs/atim/starship)
+- [Lazygit](https://copr.fedorainfracloud.org/coprs/dejan/lazygit/)
 
 ```bash
 sudo dnf copr enable solopasha/hyprland
 sudo dnf copr enable varlad/yazi
 sudo dnf copr enable atim/starship
+sudo dnf copr enable dejan/lazygit
 ```
 
 ## Dependencies
