@@ -140,9 +140,9 @@
     "workspaces": {
       "shown": 5,
       "activeIndicator": true,
-      "occupiedBg": false,
-      "showWindows": true,
-      "showWindowsOnSpecialWorkspaces": true,
+      "occupiedBg": true,
+      "showWindows": false,
+      "showWindowsOnSpecialWorkspaces": false,
       "activeTrail": false,
       "perMonitorWorkspaces": true,
       "label": "  ",
