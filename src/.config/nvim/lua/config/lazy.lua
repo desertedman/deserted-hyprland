@@ -51,18 +51,3 @@ require("lazy").setup({
     },
   },
 })
-
-require("mason").setup({
-    registries = {
-        "github:mason-org/mason-registry",
-        "github:Crashdummyy/mason-registry",
-    },
-})
-
--- require("conform").setup({
---   formatters_by_ft = {
---     -- Add this entry for Markdown
---     markdown = { "prettier" }, -- or "markdownlint", or "mdformat"
---   },
--- })
-
