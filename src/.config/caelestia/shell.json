@@ -133,7 +133,7 @@
       "brightness": true
     },
     "popouts": {
-      "activeWindow": true,
+      "activeWindow": false,
       "tray": true,
       "statusIcons": true
     },
@@ -152,8 +152,8 @@
       "specialWorkspaceIcons": []
     },
     "tray": {
-      "background": false,
-      "recolour": false,
+      "background": true,
+      "recolour": true,
       "compact": true,
       "iconSubs": []
     },
@@ -162,13 +162,13 @@
       "showMicrophone": false,
       "showKbLayout": false,
       "showNetwork": true,
-      "showWifi": false,
-      "showBluetooth": false,
+      "showWifi": true,
+      "showBluetooth": true,
       "showBattery": true,
       "showLockStatus": true
     },
     "clock": {
-      "showIcon": true
+      "showIcon": false
     },
     "sizes": {
       "innerWidth": 40,
