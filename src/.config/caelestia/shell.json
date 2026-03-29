@@ -266,7 +266,17 @@
     "dragThreshold": 50,
     "vimKeybinds": false,
     "favouriteApps": [],
-    "hiddenApps": [],
+    "hiddenApps": [
+      "bssh",
+      "bvnc",
+      "avahi-discover",
+      "foot-server",
+      "footclient",
+      "assistant",
+      "qdbusviewer",
+      "linguist",
+      "nm-connection-editor"
+    ],
     "useFuzzy": {
       "apps": false,
       "actions": false,
@@ -521,7 +531,7 @@
       "dndChanged": true,
       "audioOutputChanged": true,
       "audioInputChanged": true,
-      "capsLockChanged": true,
+      "capsLockChanged": false,
       "numLockChanged": true,
       "kbLayoutChanged": true,
       "vpnChanged": true,

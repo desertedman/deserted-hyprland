@@ -3,6 +3,12 @@
 show_hidden = true
 
 [opener]
+play = [
+  { run = "vlc %s", orphan = true },
+]
 edit = [
-  { run = 'nvim "$@"', block = true, for = "unix" },
+  { run = 'nvim %s', block = true },
+]
+open = [
+  { run = 'google-chrome-stable %s', orphan = true },
 ]
