@@ -7,19 +7,23 @@ $windowGapsIn = 3
 $windowGapsOut = 5
 $singleWindowGapsOut = 5
 
-$windowOpacity = 0.95
+$windowOpacity = 1
 
 $shadowEnabled = false
 
 # Restart hyprsunset
 bind = Super, BackSpace, exec, sh -c 'pkill hyprsunset && notify-send "Killed hyprsunset" || notify-send "Failed to kill hyprsunset"; sleep 2; notify-send "Starting hyprsunset..."; hyprsunset'
 
-bindn = Super, equal, exec, hyprctl hyprsunset temperature +250
-bindn = Super, minus, exec, hyprctl hyprsunset temperature -250
-bindn = Super, backslash, exec, hyprctl hyprsunset temperature 6000  # Reset to default
+bindnl = Super, equal, exec, hyprctl hyprsunset temperature +250
+bindnl = Super, minus, exec, hyprctl hyprsunset temperature -250
+bindnl = Super, backslash, exec, notify-send "Setting temperature to 6000K..."; hyprctl hyprsunset temperature 6000  # Reset to default
 
 # Pass input to discord hack
 bindl = , Caps_Lock, pass, class:^(discord)$
+
+general {
+    allow_tearing = true
+}
 
 dwindle {
   force_split = 2

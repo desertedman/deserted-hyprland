@@ -43,6 +43,19 @@
             "showWindowsOnSpecialWorkspaces": false
         }
     },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ]
+        }
+    },
+    "launcher": {
+        "useFuzzy": {
+            "actions": false,
+            "apps": false
+        }
+    },
     "services": {
         "useFahrenheitPerformance": true
     },
