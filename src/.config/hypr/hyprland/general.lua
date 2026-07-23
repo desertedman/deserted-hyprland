@@ -2,7 +2,7 @@ local vars = require("variables")
 
 hl.config({
     general = {
-        layout          = "scrolling",
+        layout          = "dwindle",
 
         allow_tearing   = true, -- Allows `immediate` window rule to work
 

@@ -1,38 +1,15 @@
 {
     "appearance": {
         "transparency": {
-            "base": 0.85,
-            "enabled": true,
-            "layers": 0.4
-        }
-    },
-    "background": {
-        "desktopClock": {
-            "enabled": true
-        },
-        "visualiser": {
-            "enabled": true,
-            "rounding": 0
+            "enabled": false
         }
     },
     "bar": {
-        "activeWindow": {
-            "compact": true,
-            "inverted": true,
-            "showOnHover": true
-        },
         "clock": {
             "background": true,
             "showDate": true
         },
-        "persistent": true,
-        "popouts": {
-            "activeWindow": true
-        },
-        "scrollActions": {
-            "brightness": false,
-            "volume": false
-        },
+        "persistent": false,
         "tray": {
             "background": true,
             "compact": true,
@@ -41,44 +18,6 @@
         "workspaces": {
             "showWindows": false,
             "showWindowsOnSpecialWorkspaces": false
-        }
-    },
-    "general": {
-        "apps": {
-            "explorer": [
-                "dolphin"
-            ]
-        }
-    },
-    "launcher": {
-        "useFuzzy": {
-            "actions": false,
-            "apps": false
-        }
-    },
-    "services": {
-        "useFahrenheitPerformance": true
-    },
-    "utilities": {
-        "enabled": true,
-        "maxToasts": 4,
-        "toasts": {
-            "audioInputChanged": true,
-            "audioOutputChanged": true,
-            "capsLockChanged": false,
-            "chargingChanged": true,
-            "configLoaded": true,
-            "dndChanged": true,
-            "gameModeChanged": true,
-            "kbLayoutChanged": true,
-            "nowPlaying": false,
-            "numLockChanged": true,
-            "vpnChanged": true
-        },
-        "vpn": {
-            "enabled": false,
-            "provider": [
-            ]
         }
     }
 }
