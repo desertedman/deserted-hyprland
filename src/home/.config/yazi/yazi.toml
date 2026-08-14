@@ -1,0 +1,14 @@
+[mgr]
+# ratio = [2, 4, 2]
+show_hidden = true
+
+[opener]
+play = [
+  { run = "mpv %s", orphan = true },
+]
+edit = [
+  { run = 'nvim %s', block = true },
+]
+open = [
+  { run = 'google-chrome-stable %s', orphan = true },
+]
