@@ -4,8 +4,8 @@ hl.config({
     input = {
         kb_layout          = "us",
         numlock_by_default = false,
-        repeat_delay       = 200,
-        repeat_rate        = 45,
+        repeat_delay       = 250,
+        repeat_rate        = 35,
         focus_on_close     = 1,
 
         touchpad           = {
@@ -13,8 +13,6 @@ hl.config({
             disable_while_typing = vars.touchpadDisableTyping,
             scroll_factor        = vars.touchpadScrollFactor,
         },
-
-        accel_profile      = "flat",
     },
 
     binds = {

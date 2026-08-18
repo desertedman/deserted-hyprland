@@ -17,6 +17,11 @@ hl.config({
         },
     },
 
+    input = {
+        accel_profile = "flat",
+        force_no_accel = true,
+    },
+
     dwindle = {
         preserve_split = true,
         smart_split    = false,

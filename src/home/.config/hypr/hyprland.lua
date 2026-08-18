@@ -53,8 +53,8 @@ end
 -- Default monitor conf
 hl.monitor({
     output   = "",
-    mode     = "1920x1080@120",
-    -- mode     = "",
+    -- mode     = "1920x1080@120",
+    mode     = "",
     position = "auto",
     scale    = 1,
 })
