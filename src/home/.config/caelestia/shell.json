@@ -1,23 +1,16 @@
 {
-    "appearance": {
-        "transparency": {
-            "enabled": false
-        }
-    },
     "bar": {
         "clock": {
             "background": true,
             "showDate": true
         },
-        "persistent": true,
         "tray": {
             "background": true,
             "compact": true,
             "recolour": true
-        },
-        "workspaces": {
-            "showWindows": false,
-            "showWindowsOnSpecialWorkspaces": false
         }
+    },
+    "launcher": {
+        "showOnHover": true
     }
 }
