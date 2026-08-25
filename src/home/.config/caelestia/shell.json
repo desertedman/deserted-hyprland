@@ -8,9 +8,13 @@
             "background": true,
             "compact": true,
             "recolour": true
+        },
+        "workspaces": {
+            "showWindows": false,
+            "showWindowsOnSpecialWorkspaces": false
         }
     },
     "launcher": {
-        "showOnHover": true
+        "showOnHover": false
     }
 }
