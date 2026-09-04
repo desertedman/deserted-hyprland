@@ -1,6 +1,6 @@
 return {
 	-- Apps
-	browser = "google-chrome-stable",
+	-- browser = "google-chrome-stable",
 	editor = "foot nvim",
 	fileExplorer = "dolphin",
 
