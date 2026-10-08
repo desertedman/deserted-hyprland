@@ -14,7 +14,29 @@
             "showWindowsOnSpecialWorkspaces": false
         }
     },
+    "border": {
+        "rounding": 25,
+        "smoothing": 20,
+        "thickness": 0
+    },
     "launcher": {
-        "showOnHover": false
+        "hiddenApps": [
+            "bssh",
+            "xfce4-about",
+            "bvnc",
+            "avahi-discover",
+            "thunar-bulk-rename",
+            "footclient",
+            "foot-server",
+            "qv4l2",
+            "qvidcap"
+        ],
+        "showOnHover": false,
+        "vimKeybinds": true
+    },
+    "utilities": {
+        "toasts": {
+            "capsLockChanged": false
+        }
     }
 }
