@@ -4,11 +4,11 @@ show_hidden = true
 
 [opener]
 play = [
-  { run = "mpv %s", orphan = true },
+  { run = "mpv %s", orphan = true , desc = "MPV" },
 ]
 edit = [
-  { run = 'nvim %s', block = true },
+  { run = 'foot nvim %s', orphan = true , desc = "Editor" },
 ]
 open = [
-  { run = 'google-chrome-stable %s', orphan = true },
+  { run = 'xdg-open %s', orphan = true , desc = "Browser" },
 ]
