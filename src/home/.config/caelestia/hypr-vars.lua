@@ -8,10 +8,11 @@ return {
 	blurEnabled = false,
 
 	-- Gaps
-	windowGapsIn = 3,
-	windowGapsOut = 10,
-	singleWindowGapsOut = 6,
+	windowGapsIn = 0,
+	windowGapsOut = 0,
+	singleWindowGapsOut = 0,
 
 	-- Window styling
 	windowOpacity = 1,
+  windowRounding = 0,
 }

@@ -15,7 +15,7 @@
         }
     },
     "border": {
-        "rounding": 25,
+        "rounding": 0,
         "smoothing": 20,
         "thickness": 0
     },

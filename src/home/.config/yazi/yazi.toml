@@ -4,7 +4,7 @@ show_hidden = true
 
 [opener]
 play = [
-  { run = "mpv %s", orphan = true , desc = "MPV" },
+  { run = "celluloid %s", orphan = true , desc = "MPV" },
 ]
 edit = [
   { run = 'foot nvim %s', orphan = true , desc = "Editor" },
